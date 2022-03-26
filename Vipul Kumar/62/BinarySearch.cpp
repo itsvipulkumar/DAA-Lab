@@ -1,7 +1,7 @@
 // Binary Search
 #include <bits/stdc++.h>
 using namespace std;
-int_fast16_t BinarySearch(int arr[], int size, int key)
+int BinarySearch(int arr[], int size, int key)
 {
     int low = 0, high = size, mid;
     while (low <= high)
